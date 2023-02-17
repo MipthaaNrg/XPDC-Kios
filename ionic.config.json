@@ -1,0 +1,7 @@
+{
+  "name": "myxpdckios",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

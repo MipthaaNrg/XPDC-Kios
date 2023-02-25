@@ -1,7 +1,11 @@
 import { Redirect, Route } from 'react-router-dom';
-import { IonApp, IonRouterOutlet, setupIonicReact } from '@ionic/react';
+import { IonApp, IonNav, IonRouterOutlet, setupIonicReact } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import Home from './pages/Home';
+import Main from './pages/Main'
+import Login from './pages/Login'
+import Reguler from './components/Reguler'
+import Express from './components/Express'
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -21,19 +25,32 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
+import profil from './components/Profil';
+import Profil from './components/Profil';
 
 setupIonicReact();
+if(!localStorage.getItem('isLogin')){
+  localStorage.setItem('isLogin', '0')
+  localStorage.setItem('lastMenu', 'Beranda')
+}
 
 const App: React.FC = () => (
   <IonApp>
     <IonReactRouter>
       <IonRouterOutlet>
-        <Route exact path="/home">
-          <Home />
+        <Route exact path="/main">
+          <Main />
+        </Route>
+        <Route exact path="/login">
+          <Login />
         </Route>
         <Route exact path="/">
-          <Redirect to="/home" />
+          {(localStorage.getItem('isLogin') === '0')?
+          <Redirect to="/login" />:""}
         </Route>
+        <Route exact path="/Reguler" component={Reguler}></Route>
+        <Route exact path="/Express" component={Express}></Route>
+        <Route exact path="/profil" component={Profil}></Route>
       </IonRouterOutlet>
     </IonReactRouter>
   </IonApp>

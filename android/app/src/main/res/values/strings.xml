@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">MY XPDC KIOS</string>
+    <string name="title_activity_main">MY XPDC KIOS</string>
+    <string name="package_name">com.kios.myxpdc</string>
+    <string name="custom_url_scheme">com.kios.myxpdc</string>
+</resources>

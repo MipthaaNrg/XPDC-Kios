@@ -1,0 +1,370 @@
+{
+  "project_info": {
+    "project_number": "542338452511",
+    "project_id": "xentra-9be2c",
+    "storage_bucket": "xentra-9be2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542338452511:android:192959d018b193fa3cd92a",
+        "android_client_info": {
+          "package_name": "com.expeditor.myxpdc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542338452511-a28rhmsimt05rpsgpen1pchnrp9civac.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.expeditor.myxpdc",
+            "certificate_hash": "d3f6295578e2f23f23d1962b14abb93d2f5e371d"
+          }
+        },
+        {
+          "client_id": "542338452511-ov6aa5b0rfrf6r281niol9dfu30t88ts.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.expeditor.myxpdc",
+            "certificate_hash": "5f1031c7b5fce943688bb4125f5c5a3769267643"
+          }
+        },
+        {
+          "client_id": "542338452511-qadp830qq4n4blt00v9cd37bhv1n47ok.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.expeditor.myxpdc",
+            "certificate_hash": "923879dcb2f9dec9fee5823d05d6b03dc0cf3074"
+          }
+        },
+        {
+          "client_id": "542338452511-s3aefpekg5gfthgfmetciv1rg21ri7f7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.expeditor.myxpdc",
+            "certificate_hash": "5c720d721780ea8d59b83d756ce2e71420ea4a28"
+          }
+        },
+        {
+          "client_id": "542338452511-rd62oou3p0gikpk13bf6p5d45ar1enea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJHP0QBU2vQnf-Zq_V3JQo27hTBE9U6ak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542338452511-rd62oou3p0gikpk13bf6p5d45ar1enea.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "542338452511-9fi3ptqdrm5cf8emo4h75aan61e2kt76.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tekad.myxpdc"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542338452511:android:e30cba8c7abd20aa3cd92a",
+        "android_client_info": {
+          "package_name": "com.kios.myxpdc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542338452511-bin3b9s9pf57h6i5cnhkpl9k7atjr3dg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kios.myxpdc",
+            "certificate_hash": "d3f6295578e2f23f23d1962b14abb93d2f5e371d"
+          }
+        },
+        {
+          "client_id": "542338452511-eh1glavnhoj7pkltmu8cqlsu2k89qi1i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kios.myxpdc",
+            "certificate_hash": "923879dcb2f9dec9fee5823d05d6b03dc0cf3074"
+          }
+        },
+        {
+          "client_id": "542338452511-osstboqb0f6i9dr383kouqdu4s3ol8go.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kios.myxpdc",
+            "certificate_hash": "5c720d721780ea8d59b83d756ce2e71420ea4a28"
+          }
+        },
+        {
+          "client_id": "542338452511-u88gp8unmph81753p62qv4he71psv6dn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kios.myxpdc",
+            "certificate_hash": "5f1031c7b5fce943688bb4125f5c5a3769267643"
+          }
+        },
+        {
+          "client_id": "542338452511-rd62oou3p0gikpk13bf6p5d45ar1enea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJHP0QBU2vQnf-Zq_V3JQo27hTBE9U6ak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542338452511-rd62oou3p0gikpk13bf6p5d45ar1enea.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "542338452511-9fi3ptqdrm5cf8emo4h75aan61e2kt76.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tekad.myxpdc"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542338452511:android:aa6b5dd9984146a73cd92a",
+        "android_client_info": {
+          "package_name": "com.tekad.myxpdc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542338452511-j02l6m31ihhoot0u75dcl5hsb88u84q3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tekad.myxpdc",
+            "certificate_hash": "923879dcb2f9dec9fee5823d05d6b03dc0cf3074"
+          }
+        },
+        {
+          "client_id": "542338452511-p26kid7im1b5k5nqnja0e6uthpmnsutm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tekad.myxpdc",
+            "certificate_hash": "5f1031c7b5fce943688bb4125f5c5a3769267643"
+          }
+        },
+        {
+          "client_id": "542338452511-rd62oou3p0gikpk13bf6p5d45ar1enea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJHP0QBU2vQnf-Zq_V3JQo27hTBE9U6ak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542338452511-rd62oou3p0gikpk13bf6p5d45ar1enea.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "542338452511-9fi3ptqdrm5cf8emo4h75aan61e2kt76.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tekad.myxpdc"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542338452511:android:782d2e516ceeb7533cd92a",
+        "android_client_info": {
+          "package_name": "com.traffic.myxpdc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542338452511-aur92p9vlbt538corf5jdekhibt85r3e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.traffic.myxpdc",
+            "certificate_hash": "923879dcb2f9dec9fee5823d05d6b03dc0cf3074"
+          }
+        },
+        {
+          "client_id": "542338452511-cepfvre9h6u5k9hhuh10dqqirs0o2cuu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.traffic.myxpdc",
+            "certificate_hash": "d3f6295578e2f23f23d1962b14abb93d2f5e371d"
+          }
+        },
+        {
+          "client_id": "542338452511-dlntgcl4g1m5q80oro9infu3ds864vre.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.traffic.myxpdc",
+            "certificate_hash": "5c720d721780ea8d59b83d756ce2e71420ea4a28"
+          }
+        },
+        {
+          "client_id": "542338452511-kur33c2q2b3kn6l59pqieuk6k0j0v040.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.traffic.myxpdc",
+            "certificate_hash": "5f1031c7b5fce943688bb4125f5c5a3769267643"
+          }
+        },
+        {
+          "client_id": "542338452511-rd62oou3p0gikpk13bf6p5d45ar1enea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJHP0QBU2vQnf-Zq_V3JQo27hTBE9U6ak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542338452511-rd62oou3p0gikpk13bf6p5d45ar1enea.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "542338452511-9fi3ptqdrm5cf8emo4h75aan61e2kt76.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tekad.myxpdc"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542338452511:android:1556881696f1d6033cd92a",
+        "android_client_info": {
+          "package_name": "com.transporter.myxpdc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542338452511-1vpq4utu96e5ds438hrqontq5ot6p4cj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.transporter.myxpdc",
+            "certificate_hash": "d3f6295578e2f23f23d1962b14abb93d2f5e371d"
+          }
+        },
+        {
+          "client_id": "542338452511-2go0de4dh8h51njriv9632ndtfqilsoj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.transporter.myxpdc",
+            "certificate_hash": "5f1031c7b5fce943688bb4125f5c5a3769267643"
+          }
+        },
+        {
+          "client_id": "542338452511-ak82sp863qrm8g413vske4cbibs3s8nd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.transporter.myxpdc",
+            "certificate_hash": "923879dcb2f9dec9fee5823d05d6b03dc0cf3074"
+          }
+        },
+        {
+          "client_id": "542338452511-bj0976kke6odncv9c98frp8eklm93qmi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.transporter.myxpdc",
+            "certificate_hash": "5c720d721780ea8d59b83d756ce2e71420ea4a28"
+          }
+        },
+        {
+          "client_id": "542338452511-rd62oou3p0gikpk13bf6p5d45ar1enea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJHP0QBU2vQnf-Zq_V3JQo27hTBE9U6ak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542338452511-rd62oou3p0gikpk13bf6p5d45ar1enea.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "542338452511-9fi3ptqdrm5cf8emo4h75aan61e2kt76.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tekad.myxpdc"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542338452511:android:4dbc63a81518f7ae3cd92a",
+        "android_client_info": {
+          "package_name": "io.ionic.starter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542338452511-rd62oou3p0gikpk13bf6p5d45ar1enea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJHP0QBU2vQnf-Zq_V3JQo27hTBE9U6ak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542338452511-rd62oou3p0gikpk13bf6p5d45ar1enea.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "542338452511-9fi3ptqdrm5cf8emo4h75aan61e2kt76.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tekad.myxpdc"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

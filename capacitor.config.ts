@@ -1,10 +1,15 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'myxpdckios',
+  appId: 'com.kios.myxpdc',
+  appName: 'MY XPDC KIOS',
   webDir: 'build',
-  bundledWebRuntime: false
+  bundledWebRuntime: false,
+  plugins: {
+    PushNotifications: {
+      presentationOptions: ["badge", "sound", "alert"],
+    },
+  }
 };
 
 export default config;

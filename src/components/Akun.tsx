@@ -1168,12 +1168,12 @@ const Akun: React.FC = () => {
             <IonRow style={{margin:"-12.5vh 10px 10px 10px", zIndex:10, padding:0, borderRadius:"10px", borderBottom:"solid 1px black"}}>
                 <IonCol size='12' style={{padding:0, margin:"0 0 10px 0"}}>
                     <IonRow>
-                        <IonCol size='2'>
-                            <IonAvatar>
-                                <IonImg src="https://ionicframework.com/docs/img/demos/avatar.svg"/>
+                        <IonCol size='2' style={{padding:"7px 0"}}>
+                            <IonAvatar style={{margin:0}}>
+                                <IonImg src="https://ionicframework.com/docs/img/demos/avatar.svg" style={{width:"auto", height:"100%"}}/>
                             </IonAvatar>
                         </IonCol>
-                        <IonCol size='10' style={{textAlign:"start", color:"white", paddingLeft:"20px", paddingTop:"10px"}}>
+                        <IonCol size='10' style={{textAlign:"start", color:"white", padding:"10px 15px"}}>
                             <IonText mode='ios' style={{display:"flex", flexDirection:"column"}}>
                                 <span style={{fontSize:"18px", fontWeight:"bold"}}>{localStorage.getItem('username')}</span>
                                 <span style={{fontSize:"14px", margin:"5px 0 0 0"}}>{localStorage.getItem('useremail')}</span>

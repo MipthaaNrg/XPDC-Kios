@@ -319,6 +319,10 @@ const Beranda: React.FC = () => {
         window.open(`/${menu}`,'_self')
     }
 
+    function openJobs(){
+        window.open('/Jobs','_self')
+    }
+
     return(
         <IonPage>
             <IonHeader mode='ios'>
@@ -352,7 +356,7 @@ const Beranda: React.FC = () => {
             </IonHeader>
             <IonContent id='Beranda'>
                 <IonGrid style={{margin:0, padding:"15px"}}>
-                    <IonRow>
+                    <IonRow style={{paddingRight:"15px"}}>
                         <IonCol size='10' style={{textAlign:"start"}}>
                             <IonText mode='ios' style={{display:"flex", flexDirection:"column", color:"#F9F9F9"}}>
                                 <span style={{fontSize:"18px", fontWeight:"bold"}}>{isMySaldo}</span>
@@ -360,7 +364,7 @@ const Beranda: React.FC = () => {
                             </IonText>
                         </IonCol>
                         <IonCol size='2'>
-                            <IonImg src='assets/icon.svg' style={{height:"4vh"}} />
+                            <IonButton onClick={()=>openJobs()}> Jobs</IonButton>
                         </IonCol>
                     </IonRow>
                     <IonRow style={{padding:"15px 0 0 0"}}>
@@ -481,13 +485,13 @@ const Beranda: React.FC = () => {
                             </IonText>
                         </IonCol>
                         <IonCol size='3' style={{textAlign:"center"}}>
-                            <IonText mode='ios' style={{display:"flex", flexDirection:"column"}}>
+                            <IonText mode='ios' style={{display:"flex", flexDirection:"column"}} onClick={()=>{openMenu('KirimMotor')}}>
                                 <IonImg src='assets/Motor.png' style={{height:"8vh"}} />
                                 <span style={{fontSize:"12px", margin:0}}>Kirim Motor</span>
                             </IonText>
                         </IonCol>
                         <IonCol size='3' style={{textAlign:"center"}}>
-                            <IonText mode='ios' style={{display:"flex", flexDirection:"column"}}>
+                            <IonText mode='ios' style={{display:"flex", flexDirection:"column"}} onClick={()=>{openMenu('SewaTruck')}}>
                                 <IonImg src='assets/Truck.png' style={{height:"8vh"}} />
                                 <span style={{fontSize:"12px", margin:0}}>Sewa Truck</span>
                             </IonText>

@@ -1,5 +1,5 @@
 import { IonGrid, useIonViewWillEnter, IonInfiniteScrollContent, IonInfiniteScroll, useIonActionSheet, IonBackButton, IonButton, IonButtons, IonCard, IonChip, IonCol, IonContent, IonFab, IonFabButton, IonFabList, IonHeader, IonIcon, IonInput, IonItem, IonItemDivider, IonLabel, IonList, IonMenuButton, IonPage, IonRow, IonTitle, IonToolbar, IonVirtualScroll, useIonAlert, IonAlert, IonSegment, IonSegmentButton, IonLoading, IonText, IonSkeletonText, RefresherEventDetail, IonRefresher, IonRefresherContent, IonToast, IonProgressBar, IonBadge, IonSearchbar, IonRippleEffect, IonModal, IonFooter, IonImg, createAnimation, IonActionSheet, IonTextarea, IonSpinner, IonRadioGroup, IonRadio, IonSelect, IonSelectOption} from '@ionic/react';
-import { carOutline, carSportOutline, add, syncCircleOutline, cardOutline, arrowDownCircleOutline, closeCircleOutline, timeOutline, menuOutline, clipboardOutline, globeOutline, arrowBackOutline, chevronBackOutline, searchCircleOutline, sendOutline, paperPlaneOutline, checkmarkCircleOutline, bagCheckOutline, walletOutline, chatbubblesOutline, checkmarkOutline, checkmarkDoneOutline, closeOutline, ellipseSharp, arrowUpCircleSharp, radioButtonOnOutline, locationSharp, arrowForwardCircleSharp, alertCircleSharp, fileTrayOutline, cameraOutline, trashBinOutline, addCircleOutline } from 'ionicons/icons';
+import { carOutline, carSportOutline, add, syncCircleOutline, cardOutline, arrowDownCircleOutline, closeCircleOutline, timeOutline, menuOutline, clipboardOutline, globeOutline, arrowBackOutline, chevronBackOutline, searchCircleOutline, sendOutline, paperPlaneOutline, checkmarkCircleOutline, bagCheckOutline, walletOutline, chatbubblesOutline, checkmarkOutline, checkmarkDoneOutline, closeOutline, ellipseSharp, arrowUpCircleSharp, radioButtonOnOutline, locationSharp, arrowForwardCircleSharp, alertCircleSharp, fileTrayOutline, cameraOutline, trashBinOutline, addCircleOutline, mapOutline, bicycleOutline } from 'ionicons/icons';
 import React, { useEffect, useRef, useState } from 'react';
 import $ from 'jquery';
 import { InAppBrowser, InAppBrowserObject } from '@awesome-cordova-plugins/in-app-browser';
@@ -699,13 +699,9 @@ const Orderlist: React.FC = () => {
 
   function order(type:any){
     if(localStorage.getItem('verifyPhone') != 'null'){
-      if(type === 'Reguler'){
-        window.open('/Reguler', '_self')
-      }else{
-        window.open('/Express', '_self')
-      }
+      window.open(`/${type}`, '_self')
     }else{
-
+      showToast('Verifikasi no. telepon kamu dulu ya', 'danger', 1200)
     }
   }
 
@@ -3041,6 +3037,14 @@ const Orderlist: React.FC = () => {
             <IonIcon icon={add} />
         </IonFabButton>
         <IonFabList side="top">
+        <IonFabButton mode='ios' id='fabButton' onClick={() => {order('SewaTruck')}}>
+            <IonIcon icon={mapOutline} style={{marginRight:"5px", fontSize:"22px"}}/>
+            <IonText mode='ios' style={{letterSpacing:"2px"}}>Sewa Truck</IonText>
+          </IonFabButton>
+          <IonFabButton mode='ios' id='fabButton' onClick={() => {order('KirimMotor')}}>
+            <IonIcon icon={bicycleOutline} style={{marginRight:"5px", fontSize:"22px"}}/>
+            <IonText mode='ios' style={{letterSpacing:"2px"}}>Kirim Motor</IonText>
+          </IonFabButton>
           <IonFabButton mode='ios' id='fabButton' onClick={() => {order('Reguler')}}>
             <IonIcon icon={carOutline} style={{marginRight:"5px", fontSize:"22px"}}/>
             <IonText mode='ios' style={{letterSpacing:"2px"}}>Reguler</IonText>

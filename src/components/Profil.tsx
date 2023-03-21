@@ -1,4 +1,4 @@
-import { createAnimation, IonAlert, IonBadge, IonButton, IonButtons, IonCard, IonCol, IonContent, IonFooter, IonGrid, IonHeader, IonIcon, IonItem, IonModal, IonPage, IonRow, IonText, IonTitle, IonToolbar } from "@ionic/react";
+import { createAnimation, IonAlert, IonBadge, IonButton, IonButtons, IonCard, IonCol, IonContent, IonFooter, IonGrid, IonHeader, IonIcon, IonItem, IonLoading, IonModal, IonPage, IonRow, IonText, IonTitle, IonToolbar } from "@ionic/react";
 import { chevronBackOutline, closeOutline, mailOutline, phonePortraitOutline, syncCircleOutline } from "ionicons/icons";
 import { useState } from "react";
 import { useHistory } from "react-router";
@@ -399,14 +399,15 @@ const Profil: React.FC = () => {
                         <IonText mode="ios" style={{fontSize:"14px"}}>{(localStorage.getItem('userphone') != '')?localStorage.getItem('userphone'):'Belum Didaftarkan'}</IonText>
                     </IonRow>
                     </IonCol>
-                    <IonCol size="6"  style={{textAlign:"end", padding:"10px 0"}}>
+                    {/* <IonCol size="6"  style={{textAlign:"end", padding:"10px 0"}}>
                     <IonBadge color={(localStorage.getItem('verifyPhone') === 'null'|| localStorage.getItem('userphone') === '')?'danger':'success'} style={{padding:"10px"}}>
                         {(localStorage.getItem('userphone') != '')?(localStorage.getItem('verifyPhone') === 'null')?'Not Verified':'Verified':'Not Register'}</IonBadge>
-                    </IonCol>
+                    </IonCol> */}
                 </IonRow>
                 </IonGrid>
             </IonItem>
-            <IonItem onClick={()=>{setIsModalEmail(true)}}> 
+            {/* <IonItem onClick={()=>{setIsModalEmail(true)}}>  */}
+            <IonItem>
                 <IonGrid style={{margin:"0", padding:"0"}}>
                     <IonRow>
                         <IonCol size="6" style={{textAlign:"start"}}>
@@ -415,13 +416,14 @@ const Profil: React.FC = () => {
                             <IonText mode="ios" style={{fontSize:"14px"}}>{localStorage.getItem('useremail')}</IonText>
                         </IonRow>
                         </IonCol>
-                        <IonCol size="6"  style={{textAlign:"end", padding:"10px 0"}}>
+                        {/* <IonCol size="6"  style={{textAlign:"end", padding:"10px 0"}}>
                         <IonBadge color={(localStorage.getItem('verifyEmail') === 'null')?'danger':'success'} style={{padding:"10px"}}>{(localStorage.getItem('verifyEmail') === 'null')?'Not Verified':'Verified'}</IonBadge>
-                       </IonCol> 
+                       </IonCol>  */}
                     </IonRow>
                     </IonGrid>
                 </IonItem>
-                <IonItem onClick={()=>{setIsModalPassword(true)}}>
+                {/* <IonItem onClick={()=>{setIsModalPassword(true)}}> */}
+                {/* <IonItem>
                     <IonGrid style={{margin:"0", padding:"0"}}>
                     <IonRow>
                         <IonCol>
@@ -429,7 +431,7 @@ const Profil: React.FC = () => {
                         </IonCol>
                     </IonRow>
                     </IonGrid>
-                </IonItem>
+                </IonItem> */}
           
             {/* </IonCard> */}
 
@@ -776,6 +778,12 @@ const Profil: React.FC = () => {
          
                 </IonContent>
             </IonModal>
+            
+            <IonLoading 
+            mode='ios'
+            isOpen={isLoading}
+            spinner='circular'
+            />
 
             <IonAlert 
             isOpen={alert1}
